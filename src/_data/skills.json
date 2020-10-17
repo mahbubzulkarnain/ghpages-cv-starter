@@ -1,0 +1,22 @@
+[
+  {
+    "title": "Javascript/Typescript",
+    "description": "NodeJS, ReactJS, React Native, VueJS, JEST, Jquery."
+  },
+  {
+    "title": "Golang",
+    "description": "Gin, Echo, GoTestify."
+  },
+  {
+    "title": "Database",
+    "description": "PostgreSQL, MongoDB."
+  },
+  {
+    "title": "Server",
+    "description": "AWS ( S3, EC2, SQS, SNS, Lambda ), Google Cloud Platform, Heroku, Docker."
+  },
+  {
+    "title": "Other",
+    "description": "Firebase ( Storage, Auth ), JWT, Serverless, Microservices, Rest API, ISO8583, GraphQL."
+  }
+]

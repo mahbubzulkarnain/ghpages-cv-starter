@@ -1,0 +1,10 @@
+<div class="mb-3">
+    <h3 class="accent-color text-uppercase">project</h3>
+    <% if (Array.isArray(projects)) { %>
+        <% projects.forEach(function (projects){ %>
+            <h6 class="font-weight-bold"><%= projects.title %></h6>
+            <i class="second-color"><%= projects.link %></i>
+            <p><%= projects.description %></p>
+        <% }) %>
+    <% } %>
+</div>

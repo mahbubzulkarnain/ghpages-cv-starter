@@ -1,0 +1,9 @@
+<div class="mb-3">
+    <h3 class="accent-color text-uppercase">certificate</h3>
+    <% if (Array.isArray(certificates)) { %>
+        <% certificates.forEach(function (certificates){ %>
+            <h6 class="font-weight-bold"><%= certificates.title %></h6>
+            <i class="second-color"><%= certificates.link %></i>
+        <% }) %>
+    <% } %>
+</div>

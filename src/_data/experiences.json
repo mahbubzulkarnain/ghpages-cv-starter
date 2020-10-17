@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Software Engineer, Backend",
+    "company": "PT MNC Bank International, tbk.",
+    "period": "06/2020 - present",
+    "location": "Jakarta, Indonesia.",
+    "task": [
+      "Develop Bill Payment ( Telco, PLN, PDAM, eWallet ).",
+      "Develop Scheduler Transfer."
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "PT Hacktivate Teknologi Indonesia",
+    "period": "05/2019 - 04/2020",
+    "location": "Jakarta, Indonesia.",
+    "task": [
+      "Develop Campus Platform.",
+      "Develop Hacktiv8 Online bootcamp App.",
+      "Develop standalone online course App. https://kode.id"
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "PT Smooets Teknologi Outsourcing",
+    "period": "04/2018 – 03/2019",
+    "location": "Bandung, Indonesia.",
+    "task": [
+      "Develop market place for security. https://www.redstorm.io",
+      "Develop Timah ( Mobile App For Internal Employee of PT Timah, tbk.)"
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "PT Made in Bandung",
+    "period": "02/2017 – 01/2018",
+    "location": "Bandung, Indonesia.",
+    "task": [
+      "Develop social media ( Mobile, WEB ), https://tettotumkm.com",
+      "https://play.google.com/store/apps/details?id=com.tettototo.mediasosial",
+      "https://play.google.com/store/apps/details?id=com.tettotumkm.mediasosial"
+    ]
+  }
+]

@@ -1,0 +1,13 @@
+<div class="mb-3">
+    <h3 class="accent-color text-uppercase">education</h3>
+    <% if (Array.isArray(educations)) { %>
+        <% educations.forEach(function (education){ %>
+            <h5 class="font-weight-bold"><%= education.title %></h5>
+            <h5><%= education.company %></h5>
+            <div class="row second-color font-italic">
+                <div class="col-6"><span class="float-left"><%= education.period %></span></div>
+                <div class="col-6"><span class="float-right"><%= education.location %></span></div>
+            </div>
+        <% }) %>
+    <% } %>
+</div>

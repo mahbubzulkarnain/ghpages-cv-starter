@@ -1,0 +1,18 @@
+<div class="row second-bg-color pb-3 pl-4 pr-4 mt-3">
+    <% (Object.keys(contents.contact)).forEach(function (key) { %>
+        <% if (contents.contact.hasOwnProperty(key)) { %>
+            <div class="col-4 mt-3">
+                <span class="icon"><i class="fas fa-<%= key.replace('_', "-") %> accent-color"></i></span>
+                <%= contents.contact[key] %>
+            </div>
+        <% } %>
+    <% }); %>
+    <% (Object.keys(contents.social)).forEach(function (key) { %>
+        <% if (contents.social.hasOwnProperty(key)) { %>
+            <div class="col-4 mt-3">
+                <span class="icon"><i class="fab fa-<%= key.replace('_', "-") %> accent-color"></i></span>
+                <%= contents.social[key] %>
+            </div>
+        <% } %>
+    <% }); %>
+</div>
