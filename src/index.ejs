@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <% include _partials/meta.ejs %>
+    <title><%= metadata.title %></title>
+</head>
+<body class="mt-5 mb-5">
+<div class="container">
+    <!-- profile -->
+    <% include _partials/profile.ejs %>
+
+    <!-- contact -->
+    <% include _partials/contact.ejs %>
+
+    <!-- content -->
+    <% include _partials/content.ejs %>
+</div>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+<% include _partials/style.ejs %>
+</body>
+</html>

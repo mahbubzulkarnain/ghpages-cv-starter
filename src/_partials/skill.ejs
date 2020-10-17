@@ -1,0 +1,9 @@
+<div class="mb-3">
+    <h3 class="accent-color text-uppercase">skill</h3>
+    <% if (Array.isArray(skills)) { %>
+        <% skills.forEach(function (skill){ %>
+            <h6 class="font-weight-bold"><%= skill.title %></h6>
+            <p><%= skill.description %></p>
+        <% }) %>
+    <% } %>
+</div>
